@@ -1,0 +1,32 @@
+﻿@model Productos
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-2">Id</dt>
+            <dd class="col-10">
+                @Model.Id
+            </dd>
+            <dt class="col-2">Nombre</dt>
+            <dd class="col-10">
+                @Model.Nombre
+            </dd>
+            <dt class="col-2">Descripcion</dt>
+            <dd class="col-10">
+                @Model.Descripcion
+            </dd>
+            <dt class="col-2">Precio</dt>
+            <dd class="col-10">
+                @Model.Precio
+            <dt class="col-2">Stock</dt>
+            <dd class="col-10">
+                @Model.Stock
+            </dd>
+        </dl>
+    </div>
+</div>
